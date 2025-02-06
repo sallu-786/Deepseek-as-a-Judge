@@ -1,0 +1,44 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 1.5s;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .title {
+    background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    align-items: center;
+    justify-content: center; 
+    /* animation: slideIn 1s ease-out forwards; */
+  }
+
+  .description {
+    font-size: 14px; /* Smaller font size */
+    font-family: Arial, sans-serif; /* Simpler font */
+    text-align: center; /* Center align the text */
+    margin-top: 10px; /* Add some margin to create space between the title and the description */
+    /* animation: slideOut 1s ease-out forwards; */
+  }
+
+  #app-mode-select {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.stSelectbox {
+    width: 100px; /* Adjust the width as needed */
+}
