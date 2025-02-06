@@ -53,7 +53,7 @@ flowchart TD
 - Download the Zip file and extract into desired folder or Clone the repository using following command (Git must be installed otherwise download the zip file and extract it)
 
 
-      git clone https://github.com/sallu-786/Multimodal_RAG.git
+      git clone https://github.com/sallu-786/Deepseek-as-a-Judge
 
 - Install the required libraries
 
