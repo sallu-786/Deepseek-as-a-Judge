@@ -1,7 +1,7 @@
 import streamlit as st
 from litellm import completion
 LLAMA="ollama/llama3.1"
-DS="ollama/deepseek-r1:7b"
+DS="ollama/deepseek-r1:14b"
 model = LLAMA
 
 
