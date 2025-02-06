@@ -1,5 +1,5 @@
 
-## DEEPSEEK AS A JUDGE
+## Deepseek As A Judge
 An open-source implementation of RAG system that uses LLMs-as-a-Judge evaluation mechanism. The system processes documents, generates responses, and employs an LLM judge to evaluate and improve answer quality through multiple iterations. If all iterations have been exhausted, best available answer will be chosen.
 
 ## Features
