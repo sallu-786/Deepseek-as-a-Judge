@@ -58,6 +58,9 @@ flowchart TD
 - Install the required libraries
 
         pip install -r requirements.txt
+- Run the App
+
+      streamlit run app.py   
 
 ## Contributing
 Contributions are welcome! Please follow standard GitHub pull request procedures.
