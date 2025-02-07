@@ -62,5 +62,5 @@ flowchart TD
 ## Contributing
 Contributions are welcome! Please follow standard GitHub pull request procedures.
 
-## LICENSE
+## License
 MIT
