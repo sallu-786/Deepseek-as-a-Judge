@@ -13,7 +13,7 @@ def response_chatgpt_judge(message, input_documents, response):
     User Message: "{message}"
     Retrieved Document: "{input_documents}"
     AI Response: "{response}"
-    Your Reasoning should be:
+
 
     Your reply should strictly follow this format:
     **Reasoning:** <Your feedback>
